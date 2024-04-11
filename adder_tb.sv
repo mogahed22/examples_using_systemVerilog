@@ -37,7 +37,7 @@ initial begin
     A=B=zero; checkresult(14);
     A=zero; B=maxpos; checkreset(7);
     A=zero; B=maxneg; checkreset(-1);    
-
+    $stop;
 end
 
 
